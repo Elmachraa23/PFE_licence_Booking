@@ -1,0 +1,45 @@
+.navbar{
+  height: 50px;
+  background-color: rgb(0, 73, 59);
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-weight: 500;
+}
+.userContainer{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.navButton:hover,.logout:hover{
+  margin-left: 20px;
+  cursor: pointer;
+  background-color: #fff;
+  text-decoration: none;
+  color: rgb(0, 73, 59);
+  border: 1px solid #fff;
+  border-radius: 15px;
+  padding: 4px 15px;
+}
+.navButton, .logout{
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  padding: 3px 15px;
+  font-size: 14px;
+}
+
